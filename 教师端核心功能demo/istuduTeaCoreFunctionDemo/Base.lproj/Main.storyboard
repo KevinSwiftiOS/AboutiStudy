@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A239m" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="istuduTeaCoreFunctionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="2sk-w5-eZ3">
+                                <rect key="frame" x="40" y="45" width="240" height="280"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWA-89-0R5">
+                                <rect key="frame" x="40" y="347" width="59" height="30"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="draw:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xPX-RK-w32"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cP-xH-gXy">
+                                <rect key="frame" x="137" y="347" width="54" height="30"/>
+                                <state key="normal" title="."/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7u-3A-LO1">
+                                <rect key="frame" x="234" y="347" width="46" height="30"/>
+                                <state key="normal" title="."/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zF-LI-thj">
+                                <rect key="frame" x="75" y="398" width="177" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="请选择录音位置">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseLacation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TjL-0l-ypO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDB-Xh-TCo">
+                                <rect key="frame" x="46" y="445" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="开始录音"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCz-ZS-HUJ">
+                                <rect key="frame" x="180" y="445" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="停止录音"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0o-60-cYK">
+                                <rect key="frame" x="121" y="506" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="批阅结束"/>
+                                <connections>
+                                    <action selector="savePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0xn-wA-djn"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GfJ-c4-egQ" customClass="PIDrawView" customModule="istuduTeaCoreFunctionDemo" customModuleProvider="target">
+                                <rect key="frame" x="40" y="45" width="240" height="280"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="deEditButton" destination="2cP-xH-gXy" id="0Jg-MY-4qO"/>
+                        <outlet property="drawButton" destination="dWA-89-0R5" id="PwY-EE-RDg"/>
+                        <outlet property="drawView" destination="GfJ-c4-egQ" id="ZMu-gB-6wK"/>
+                        <outlet property="resultImageView" destination="2sk-w5-eZ3" id="VYO-D4-Ra8"/>
+                        <outlet property="saveDrawButton" destination="i7u-3A-LO1" id="q4t-gf-8V2"/>
+                        <outlet property="startRecoderButton" destination="iDB-Xh-TCo" id="4ar-yO-0X5"/>
+                        <outlet property="stopRecoderButton" destination="rCz-ZS-HUJ" id="k4d-Kg-m5c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="354"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="4032" height="3024"/>
+    </resources>
+</document>

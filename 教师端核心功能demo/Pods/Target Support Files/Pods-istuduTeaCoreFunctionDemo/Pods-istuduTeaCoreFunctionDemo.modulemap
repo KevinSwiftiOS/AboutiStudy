@@ -1,0 +1,6 @@
+framework module Pods_istuduTeaCoreFunctionDemo {
+  umbrella header "Pods-istuduTeaCoreFunctionDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

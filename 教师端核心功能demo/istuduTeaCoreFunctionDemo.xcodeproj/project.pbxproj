@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E239001D29EEA0006ACF63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E238FF1D29EEA0006ACF63 /* AppDelegate.swift */; };
+		38E239021D29EEA0006ACF63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E239011D29EEA0006ACF63 /* ViewController.swift */; };
+		38E239051D29EEA0006ACF63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E239031D29EEA0006ACF63 /* Main.storyboard */; };
+		38E239071D29EEA0006ACF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E239061D29EEA0006ACF63 /* Assets.xcassets */; };
+		38E2390A1D29EEA0006ACF63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E239081D29EEA0006ACF63 /* LaunchScreen.storyboard */; };
+		38E239121D29EEB3006ACF63 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 38E239111D29EEB3006ACF63 /* Podfile */; };
+		38E2391D1D29EFAF006ACF63 /* translate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E2391C1D29EFAF006ACF63 /* translate.m */; };
+		38E2391F1D29EFC4006ACF63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E2391E1D29EFC4006ACF63 /* AVFoundation.framework */; };
+		38E239211D29EFF0006ACF63 /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E239201D29EFF0006ACF63 /* lame.framework */; };
+		38E239241D29F021006ACF63 /* PIDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E239231D29F021006ACF63 /* PIDrawView.swift */; };
+		A2C91108EB41DB421014466D /* Pods_istuduTeaCoreFunctionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D729E3EAFFD124EF7416E6EA /* Pods_istuduTeaCoreFunctionDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38E238FC1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = istuduTeaCoreFunctionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E238FF1D29EEA0006ACF63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38E239011D29EEA0006ACF63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38E239041D29EEA0006ACF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38E239061D29EEA0006ACF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E239091D29EEA0006ACF63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38E2390B1D29EEA0006ACF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E239111D29EEB3006ACF63 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		38E239191D29EFAE006ACF63 /* istuduTeaCoreFunctionDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "istuduTeaCoreFunctionDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		38E2391A1D29EFAF006ACF63 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		38E2391B1D29EFAF006ACF63 /* translate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = translate.h; sourceTree = "<group>"; };
+		38E2391C1D29EFAF006ACF63 /* translate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = translate.m; sourceTree = "<group>"; };
+		38E2391E1D29EFC4006ACF63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		38E239201D29EFF0006ACF63 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		38E239231D29F021006ACF63 /* PIDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIDrawView.swift; sourceTree = "<group>"; };
+		54063E4D8996284F60886712 /* Pods-istuduTeaCoreFunctionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-istuduTeaCoreFunctionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-istuduTeaCoreFunctionDemo/Pods-istuduTeaCoreFunctionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B29D8CA76675B3504A999924 /* Pods-istuduTeaCoreFunctionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-istuduTeaCoreFunctionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-istuduTeaCoreFunctionDemo/Pods-istuduTeaCoreFunctionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D729E3EAFFD124EF7416E6EA /* Pods_istuduTeaCoreFunctionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_istuduTeaCoreFunctionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E238F91D29EEA0006ACF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E2391F1D29EFC4006ACF63 /* AVFoundation.framework in Frameworks */,
+				38E239211D29EFF0006ACF63 /* lame.framework in Frameworks */,
+				A2C91108EB41DB421014466D /* Pods_istuduTeaCoreFunctionDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E238F31D29EEA0006ACF63 = {
+			isa = PBXGroup;
+			children = (
+				38E239111D29EEB3006ACF63 /* Podfile */,
+				38E238FE1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo */,
+				38E238FD1D29EEA0006ACF63 /* Products */,
+				E64D2C581223B6AADBA1920E /* Pods */,
+				D84347AF9F9C36EECE3EFFE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38E238FD1D29EEA0006ACF63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E238FC1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E238FE1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				38E239221D29F013006ACF63 /* drawPhoto */,
+				38E239201D29EFF0006ACF63 /* lame.framework */,
+				38E239181D29EF99006ACF63 /* translateCafToMp3 */,
+				38E238FF1D29EEA0006ACF63 /* AppDelegate.swift */,
+				38E239011D29EEA0006ACF63 /* ViewController.swift */,
+				38E239031D29EEA0006ACF63 /* Main.storyboard */,
+				38E239061D29EEA0006ACF63 /* Assets.xcassets */,
+				38E239191D29EFAE006ACF63 /* istuduTeaCoreFunctionDemo-Bridging-Header.h */,
+				38E239081D29EEA0006ACF63 /* LaunchScreen.storyboard */,
+				38E2390B1D29EEA0006ACF63 /* Info.plist */,
+			);
+			path = istuduTeaCoreFunctionDemo;
+			sourceTree = "<group>";
+		};
+		38E239181D29EF99006ACF63 /* translateCafToMp3 */ = {
+			isa = PBXGroup;
+			children = (
+				38E2391A1D29EFAF006ACF63 /* lame.h */,
+				38E2391B1D29EFAF006ACF63 /* translate.h */,
+				38E2391C1D29EFAF006ACF63 /* translate.m */,
+			);
+			name = translateCafToMp3;
+			sourceTree = "<group>";
+		};
+		38E239221D29F013006ACF63 /* drawPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				38E239231D29F021006ACF63 /* PIDrawView.swift */,
+			);
+			name = drawPhoto;
+			sourceTree = "<group>";
+		};
+		D84347AF9F9C36EECE3EFFE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E2391E1D29EFC4006ACF63 /* AVFoundation.framework */,
+				D729E3EAFFD124EF7416E6EA /* Pods_istuduTeaCoreFunctionDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64D2C581223B6AADBA1920E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B29D8CA76675B3504A999924 /* Pods-istuduTeaCoreFunctionDemo.debug.xcconfig */,
+				54063E4D8996284F60886712 /* Pods-istuduTeaCoreFunctionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E238FB1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E2390E1D29EEA0006ACF63 /* Build configuration list for PBXNativeTarget "istuduTeaCoreFunctionDemo" */;
+			buildPhases = (
+				01D15046416BD71503AF92DD /* 📦 Check Pods Manifest.lock */,
+				38E238F81D29EEA0006ACF63 /* Sources */,
+				38E238F91D29EEA0006ACF63 /* Frameworks */,
+				38E238FA1D29EEA0006ACF63 /* Resources */,
+				DFB2AD663C091031B2632028 /* 📦 Embed Pods Frameworks */,
+				79F09E381EBB5688A9C37411 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = istuduTeaCoreFunctionDemo;
+			productName = istuduTeaCoreFunctionDemo;
+			productReference = 38E238FC1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E238F41D29EEA0006ACF63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hznucai;
+				TargetAttributes = {
+					38E238FB1D29EEA0006ACF63 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 97W353G3T2;
+					};
+				};
+			};
+			buildConfigurationList = 38E238F71D29EEA0006ACF63 /* Build configuration list for PBXProject "istuduTeaCoreFunctionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E238F31D29EEA0006ACF63;
+			productRefGroup = 38E238FD1D29EEA0006ACF63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E238FB1D29EEA0006ACF63 /* istuduTeaCoreFunctionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E238FA1D29EEA0006ACF63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E2390A1D29EEA0006ACF63 /* LaunchScreen.storyboard in Resources */,
+				38E239071D29EEA0006ACF63 /* Assets.xcassets in Resources */,
+				38E239121D29EEB3006ACF63 /* Podfile in Resources */,
+				38E239051D29EEA0006ACF63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01D15046416BD71503AF92DD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79F09E381EBB5688A9C37411 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-istuduTeaCoreFunctionDemo/Pods-istuduTeaCoreFunctionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB2AD663C091031B2632028 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-istuduTeaCoreFunctionDemo/Pods-istuduTeaCoreFunctionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E238F81D29EEA0006ACF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E239021D29EEA0006ACF63 /* ViewController.swift in Sources */,
+				38E239241D29F021006ACF63 /* PIDrawView.swift in Sources */,
+				38E2391D1D29EFAF006ACF63 /* translate.m in Sources */,
+				38E239001D29EEA0006ACF63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38E239031D29EEA0006ACF63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E239041D29EEA0006ACF63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38E239081D29EEA0006ACF63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E239091D29EEA0006ACF63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E2390C1D29EEA0006ACF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E2390D1D29EEA0006ACF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E2390F1D29EEA0006ACF63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29D8CA76675B3504A999924 /* Pods-istuduTeaCoreFunctionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/istuduTeaCoreFunctionDemo",
+				);
+				INFOPLIST_FILE = istuduTeaCoreFunctionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hznucai.istuduTeaCoreFunctionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "istuduTeaCoreFunctionDemo/istuduTeaCoreFunctionDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38E239101D29EEA0006ACF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54063E4D8996284F60886712 /* Pods-istuduTeaCoreFunctionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/istuduTeaCoreFunctionDemo",
+				);
+				INFOPLIST_FILE = istuduTeaCoreFunctionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hznucai.istuduTeaCoreFunctionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "istuduTeaCoreFunctionDemo/istuduTeaCoreFunctionDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E238F71D29EEA0006ACF63 /* Build configuration list for PBXProject "istuduTeaCoreFunctionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E2390C1D29EEA0006ACF63 /* Debug */,
+				38E2390D1D29EEA0006ACF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E2390E1D29EEA0006ACF63 /* Build configuration list for PBXNativeTarget "istuduTeaCoreFunctionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E2390F1D29EEA0006ACF63 /* Debug */,
+				38E239101D29EEA0006ACF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E238F41D29EEA0006ACF63 /* Project object */;
+}

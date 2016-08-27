@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Font-Awesome-Swift-Font-Awesome-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Font-Awesome-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-istuduTeaCoreFunctionDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0BD93190C4A69322358A0FEC264D3AFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46DFF605EA91D4F2126F82E6AA6397A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF2853D8E5FEAD2265A458B55D554528</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
